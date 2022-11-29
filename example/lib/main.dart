@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
                   // height: 300,
                   child: MyAnimationWidget(
                     list: testData,
+                    rigtToLeft: false,
                   )),
             ],
           ),
@@ -56,4 +57,28 @@ List<Map> testData = [
     "number": "1234 **** **** 0101",
     "color": 0xFFd45459
   },
+  {
+    "name": "Alakbar",
+    "surname": "Heydarov",
+    "cardType": "Master",
+    "date": "12/23",
+    "number": "1234 **** **** 0101",
+    "color": 0xFFffca05
+  },
+  // {
+  //   "name": "Balasef",
+  //   "surname": "Aliyev",
+  //   "cardType": "Visa",
+  //   "date": "12/23",
+  //   "number": "1234 **** **** 0101",
+  //   "color": 0xFF378916
+  // },
+  // {
+  //   "name": "Seymur",
+  //   "surname": "Memmedhuseynov",
+  //   "cardType": "Master",
+  //   "date": "12/23",
+  //   "number": "1234 **** **** 0101",
+  //   "color": 0xFFd45459
+  // },
 ];
